@@ -7,8 +7,35 @@
  background-size: cover;
 }
 
-a {
- color: white;
+h1 {
+ color: black;
  font-size: 40px;
  text-align: center;
 }
+
+/* Solid border */
+hr.solid {
+  border-top: 3px solid #bbb;
+}
+
+p {
+    border: 50px;
+}
+
+#outer::before, #outer::after {
+    display: block;
+    content: "";
+    height: 10%;
+}
+#inner {
+    height: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#HomeNav, #LinkNav {
+
+    font-size: 30px;
+    margin-left: 20%;
+}
+
