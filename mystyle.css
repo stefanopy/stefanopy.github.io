@@ -1,4 +1,4 @@
-body {
+.jumbotron {
  background-image: url(https://images5.alphacoders.com/672/thumb-1920-672220.png);
  background-color: #cccccc;
  background-repeat: no-repeat;
@@ -11,8 +11,4 @@ a {
  color: white;
  font-size: 40px;
  text-align: center;
-}
-
-.jumbotron {
-    background: rgba(204, 204, 204, 0.5);
 }
