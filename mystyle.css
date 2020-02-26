@@ -13,4 +13,6 @@ a {
  text-align: center;
 }
 
-
+.jumbotron {
+    background: rgba(204, 204, 204, 0.5);
+}
